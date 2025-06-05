@@ -22,7 +22,7 @@ set binPath to (tmpPath & "geode-install/")
 tell application "System Events"
     try
         set libraryPath to POSIX path of (path to home folder from user domain)
-        set steamPath to (libraryPath & "/Library/Application Support/Steam/steamapps/common/Geometry Dash/")
+        set steamPath to (libraryPath & "Applications/Geometry Dash/")
 
         display dialog "Steam path: " & steamPath
 
